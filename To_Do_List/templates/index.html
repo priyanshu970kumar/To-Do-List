@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/style.css">
+    
+</head>
+<body>
+    <h1 class="head">Welcome My Website</h1>
+    <h1 class="ToDoList"> To Do List </h1>
+    <div class="Note">
+        <form method="POST">
+          {% csrf_token %}
+            <input type="text" placeholder="Enter Note" class="text" name="note">
+            <br>
+            <br>
+            <input type="text" placeholder="Enter Note Descriptions" class="text" name="desc">
+            <br>
+            <br>
+    
+            <button type="submit" class="btn">Add Note</button>
+        </form>
+
+    </div>
+    <br>
+    <br>
+    <h4 class="your_note" name="ghf" value="">Your Note</h4>
+<br>
+<br>
+
+    <div class="">
+    <table border="1" class="table">  
+        <tr class="thead">
+            <th class="thead">Note</th>
+            <th class="thead">Descriptions</th>
+            <th class="thead">Delet</th>
+            <th class="thead">Update</th>
+        </tr>
+    {% for i in note_d %}
+        <tr>
+            <th>{{ i.note}}</th>
+            <th>{{i.desc}}</th>
+            <th>
+            <div class="delet"><a href="abc {{i.id}}" class="delet">Delet</a></div>
+            </th>
+            <th>
+                <div class="update"><a href="abc {{i.id}}" class="update">Update</a></div>
+                </th>
+            
+        </tr>
+    {% endfor %}
+    </table>
+              
+    </div>
+
+      
+    
+    
+</body>
+</html>

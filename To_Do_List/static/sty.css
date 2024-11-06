@@ -1,0 +1,79 @@
+/* *{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(192, 238, 223);
+    
+
+}
+.head{
+    text-align: center;
+    margin-top: 10px;
+    color: crimson;
+    font-size: 50px;
+    font-weight: bold;
+}
+.ToDoList{
+    text-align: center;
+    color: rgb(100, 248, 2);
+    margin-top: 50px;
+    background-color: rgb(76, 90, 249);
+    font-size: 40px;
+}
+.Note{
+    text-align: center;
+    margin-top: 50px;
+}
+.text{
+    height: 40px;
+    width: 500px;
+    font-size: 20px;
+    color: rgb(6, 0, 0);
+    background-color: rgb(37, 247, 18);
+    font-weight: bold;
+}
+
+.btn{
+   background-color:blue;
+   border-radius: 5px;
+   height: 50px;
+   width: 200px;
+   color: white;
+   font-size: 40px;
+}
+
+.cont{
+    height: 200px;
+    width: 1000px;
+    background-color: rgb(255, 234, 0);
+    margin-left: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    text-wrap: 10pc;
+} 
+.delet{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(0, 47, 255);
+    color: white;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.your_note{
+    height: 50px;
+    width: 600px;
+    background-color: rgb(233, 0, 0);
+   margin-left: 400px;
+   text-align: center;
+   font-size: 40px;
+
+}
+
+.table{
+    text-align: center;
+    
+} */
